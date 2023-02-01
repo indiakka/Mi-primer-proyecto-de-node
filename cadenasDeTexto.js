@@ -5,6 +5,6 @@ let estudianteMayus = estudiante.toUpperCase();
 let estudianteMinus = estudiante.toLowerCase();
 let numLetras = estudiante.length;
 let primeraLetra = nombre[0];
-let ultimaLetra = apellido[2];
+let ultimaLetra = apellido[apellido.length - 1]
 let sinEspacios = estudiante.replace(/ /g, "");
 let nomEnEstudiante = estudiante.includes(nombre);
